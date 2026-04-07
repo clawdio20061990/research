@@ -1,91 +1,107 @@
-# Long-Term Memory
+# Long-Term Memory - Clawdio's Work History
 
-## About Dmytro
-- Name: Dmytro Matiushyn
-- Location: Warsaw, Poland (Europe/Warsaw timezone)
-- Languages: Ukrainian, English
-- Communication: Telegram
-- Preferences: No emojis, concise/direct communication, proactive but ask before risky actions
+## Current Major Project: MBA Capstone (Reactacat)
 
-## Major Projects
+**Status:** Mid-project, 3 of 9 deliverables complete  
+**Deadline:** September 30, 2026  
+**Last Checkpoint:** March 9, 2026, 14:02 GMT+1 (API limit safeguard)  
+**Checkpoint Files:**
+- `/Users/dmytromatiushyn/.openclaw/workspace/memory/capstone-checkpoint-2026-03-09-1402.md` (comprehensive)
+- `/Users/dmytromatiushyn/.openclaw/workspace/memory/capstone-state-2026-03-09.md` (detailed)
 
-### MBA Capstone - Reactacat (March 2026 - Dec 2026)
-**Overview:**
-- Business idea validation project for MBA XVII capstone requirement
-- Product: "Reactacat" - AI-powered autonomous laser toy for cats
-- Goal: Validate business viability + create functional prototype + deliver academic dissertation
+### Completed Deliverables
+1. ✅ **Business Research** (validates business idea viability)
+   - 5 hypotheses all supported with high confidence
+   - Market opportunity exists, business model viable, regulatory feasible
+   
+2. ✅ **Market Research & Competitive Analysis** (identifies customer opportunity)
+   - EU market €50–70M addressable, growing 12–20% CAGR
+   - Unique white space: no competitor combines autonomous laser + adaptive AI + treats
+   - Premium segment: 1.8–2.3M households in EU, customer psychographics mapped
+   
+3. ✅ **Financial Analysis** (3-year model with Poland soft launch)
+   - Break-even Month 28–30, positive net income Year 3 (+€115K)
+   - Seed €650K, Series A €1.5–2M (Month 18–20)
+   - Key lever: subscription conversion (15% → 50% saves 4–6 months to breakeven)
 
-**My Role:**
-- Documentation and research support ONLY
-- NO prototype development (technical work is Dmytro's domain)
-- Use Sonnet model for all capstone work
-- Commit + push after every change to github.com/clawdio20061990/capstone
+### Key Strategic Decisions
+- **Geographic:** Poland soft launch (home market), then Germany/France/UK, then EU
+- **Distribution:** Direct-to-Consumer only (retail margins break unit economics)
+- **Hardware:** Raspberry Pi 4B prototyping → custom PCB at 100K+ units
+- **Subscription:** 50% conversion base case (€4.50/month blended), critical to profitability
 
-**Team:**
-- Dmytro Matiushyn: Product Vision & Technical Lead
-- Agnieszka Kaput: Legal & Compliance
-- Fabian Purwin: Finance & Project Management
-- Ewa Suszek: Product Owner & Business Development
+### Remaining Deliverables (6 items)
+- Risk Analysis
+- User Testing Documentation
+- Dissertation Chapters (~20K words)
+- Executive Summary
+- Defence Presentation
+- (User testing execution if pending)
 
-**Key Milestones:**
-- May 8, 2026: Pitching session
-- Sep 30, 2026: Submit completed project to supervisor
-- Oct 30, 2026: Anti-plagiarism check
-- Nov 14, 2026: Executive summary + defence presentation
-- Dec 11-13, 2026: Capstone defence examination
+**See:** `/Users/dmytromatiushyn/.openclaw/workspace/memory/capstone-state-2026-03-09.md` for full checkpoint details
 
-**Required Deliverables:**
-1. Market research and competitive analysis
-2. Stakeholder research (qualitative + quantitative)
-3. Financial analysis
-4. Risk analysis
-5. Functional prototype (Dmytro's responsibility)
-6. User testing documentation + recommendations
-7. Written dissertation
-8. Executive summary
-9. Defence presentation
+---
 
-**Work Protocol:**
-1. Before each new task: message Dmytro on Telegram with plan, wait for approval
-2. Use academic-deep-research skill for thorough investigation
-3. **Use the internet heavily** - conduct extensive web searches for all necessary data
-4. Triple-check all sources for validity (only working links)
-5. Prioritize fresh, recent data
-6. Visit competitors and document competitive advantages
-7. Commit + push to repo after every change
-8. After completing each task: move corresponding Jira ticket to "Done"
-9. Document all activity at every stage
+## Research Workflow Standard
 
-**Current Status (as of 2026-03-07):**
-- Phase: Starting from scratch - concept stage only
-- Repo: cloned to ~/.openclaw/workspace/capstone
-- Work rules documented in WORK_RULES.md
-- Initial project files reviewed (charter, MBA rules, main idea)
-- Jira connected: mbaxviicapstone.atlassian.net
-- Next step: Document device architecture and market concept
+**Rule: Deep Research Output Structure**
 
-**Competitive Advantage (from main_idea.md):**
-- Market gap: Existing pet tech is "passive and predictable"
-- Reactacat differentiator: Proprietary AI creating adaptive, emergent, non-deterministic play
-- Vision: Fully autonomous companion that perceives, strategizes, and evolves
-- Promise: "Never the same prey twice"
+Кожен раз при проведенні deep research:
 
-## Skills Installed
-- clawdbot-jira-skill v1.0.2 (Jira API integration)
-- gog v1.0.0 (Google Workspace CLI)
-- git v1.0.7 (Git knowledge skill)
-- academic-deep-research v1.0.0 (exhaustive research with APA citations)
-- clawddocs v1.2.2 (Clawdbot documentation expert)
-- reddit-readonly v1.0.0 (read-only Reddit browsing)
+1. **Створювати папку в research репозиторії:**
+   - Назва папки = тема дослідження (kebab-case)
+   - Приклад: `zabka-franchise-analysis/`, `market-research-2025/`
 
-## Configuration
-- Jira: Connected to mbaxviicapstone.atlassian.net
-- GitHub: Authenticated as clawdio20061990
-- Model: Default is Opus, but using Sonnet for capstone work
+2. **Структура папки:**
+   ```
+   research/
+   └── [topic-name]/
+       ├── README.md              # Повний звіт дослідження
+       └── sources/               # Дані та джерела
+           ├── raw-data/
+           ├── web-search-results/
+           └── screenshots/
+   ```
 
-## Style Guidelines
-- No emojis
-- Concise, direct communication
-- Casual but professional
-- Match language used (Ukrainian/English)
-- Proactive on safe actions (read/search), ask first on risky actions (create/edit/delete)
+3. **Завжди зберігати:**
+   - Повний звіт у форматі Markdown
+   - Джерела даних (посилання, витяги)
+   - Дату дослідження
+   - Використані інструменти
+
+4. **Виняток:** Тільки якщо явно сказано "не зберігати" або "тимчасове дослідження"
+
+---
+
+## Daily Task: Baby Tips
+
+- **Cron job:** `baby-daily-tips` (id: 992f40e7-adba-4a2b-b562-81c2f274371b)
+- **Schedule:** Щодня о 9:00 Europe/Warsaw
+- **Model:** Sonnet
+- **Expected due date:** 2026-07-03
+- **Log file:** `memory/baby-tips-log.md` (tracks all sent tips to avoid repeats)
+- **Format:** 20 practical, evidence-based tips per day, Ukrainian, focus on first 3-4 months
+- **Started:** 2026-03-16
+
+---
+
+## About the User (Dmytro)
+
+- **Name:** Dmytro
+- **Timezone:** Europe/Warsaw (GMT+1)
+- **Languages:** Ukrainian, English
+- **Pronouns:** he/him
+- **Channel:** Telegram
+- **Communication Style:** Concise, direct, values proactivity
+- **Role:** Product Vision & Technical Lead (Reactacat capstone team)
+
+---
+
+## About Clawdio (Me)
+
+- **Name:** Clawdio
+- **Creature:** AI assistant in OpenClaw
+- **Vibe:** Casual but competent, gets stuff done
+- **Emoji:** 🐾
+- **Core Values:** Be useful not performative, be concise, be proactive, have opinions
+- **Language:** Always reply in the language addressed in (Ukrainian → Ukrainian, English → English)
