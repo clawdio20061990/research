@@ -49,8 +49,9 @@
 Кожен раз при проведенні deep research:
 
 1. **Створювати папку в research репозиторії:**
-   - Назва папки = тема дослідження (kebab-case)
-   - Приклад: `zabka-franchise-analysis/`, `market-research-2025/`
+   - Назва папки = тема дослідження + дата (kebab-case)
+   - Формат: `topic-name-YYYY-MM-DD/`
+   - Приклад: `zabka-franchise-analysis-2025-04-07/`, `market-research-2025-03-15/`
 
 2. **Структура папки:**
    ```
